@@ -1,0 +1,55 @@
+hash: 53983598f35580b1806af600b670239f3dac699f933b0d470156b4d82bb4aea4
+updated: 2018-05-22T00:11:23.8074955+07:00
+imports:
+- name: github.com/golang/mock
+  version: 22bbf0ddf08105dfa364d0a2fa619dfa71014af5
+  subpackages:
+  - gomock
+- name: github.com/golang/protobuf
+  version: fec3b39b059c0f88fa6b20f5ed012b1aa203a8b4
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes/any
+- name: golang.org/x/net
+  version: 8663ed5da4fd087c3cfb99a996e628b72e2f0948
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/text
+  version: 6353ef0f924300eea566d3438817aa4d3374817e
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: 411e09b969b1170a9f0c467558eb4c4c110d9c77
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: b15215fb911b24a5d61d57feec4233d610530464
+  subpackages:
+  - codes
+  - credentials
+  - examples/helloworld/helloworld
+  - examples/helloworld/mock_helloworld
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - reflection
+  - reflection/grpc_reflection_v1alpha
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []

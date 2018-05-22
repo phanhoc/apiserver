@@ -13,12 +13,18 @@ func main() {
 	}
 	fmt.Println("strMnemonic:")
 	fmt.Println(strMnemonic)
-	seed, err := api.CreateSeed("globe chief envelope canyon first squeeze fold acid denial lawn beach moral slot extend endorse usage art mean faculty analyst pigeon nose split bullet")
+	seed, err := api.CreateSeedHexString("either hill rotate buzz echo pluck misery arm gain injury breeze symbol nation material pottery cradle hospital border creek harsh stool garage anxiety uniform")
 	if err != nil {
 		fmt.Println("CreateSeed error: ", err)
 		return
 	}
 	fmt.Println("Seed:")
-	s := string(seed)
-	fmt.Println(s)
+	fmt.Println(seed)
+	key := "phanhoc@123"
+	encodeSeed, err := api.EncodeSeed(key, seed)
+	fmt.Println("Seed Encrytion:")
+	fmt.Println(encodeSeed)
+	decodeSeed, err := api.DecodeSeed(key, encodeSeed)
+	fmt.Println("Seed Decrytion:")
+	fmt.Println(decodeSeed)
 }

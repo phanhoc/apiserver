@@ -1,5 +1,5 @@
 hash: b1b48d9d43b09eb36273f8d76412d840e213780278710020c1eec9a54713b8ec
-updated: 2018-05-22T10:50:59.892391+07:00
+updated: 2018-05-22T22:30:34.8045996+07:00
 imports:
 - name: github.com/golang/mock
   version: 22bbf0ddf08105dfa364d0a2fa619dfa71014af5
@@ -14,7 +14,7 @@ imports:
 - name: github.com/tyler-smith/go-bip39
   version: 8e7a99b3e716f36d3b080a9a70f9eb45abe4edcc
 - name: golang.org/x/crypto
-  version: 84f24dfdf3c414ed893ca1b318d0045ef5a1f607
+  version: 122d919ec1efcfb58483215da23f815853e24b81
   subpackages:
   - pbkdf2
 - name: golang.org/x/net

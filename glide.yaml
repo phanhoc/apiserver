@@ -13,3 +13,4 @@ import:
   subpackages:
   - examples/helloworld/helloworld
   - reflection
+- package: github.com/tyler-smith/go-bip39
